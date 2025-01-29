@@ -76,6 +76,11 @@ function validateField(value, type) {
                 ? { valid: true }
                 : { valid: false, error: 'Invalid input. Please enter only numeric and -.' };
         
+        case 'date':
+            return /^(0[1-9]|1[0-2])\/(0[1-9]|[12]\d|3[01])\/\d{4}$/.test(value) 
+                ? { valid: true }
+                : { valid: false, error: 'Invalid input. Please enter a valid date in the format MM/DD/YYYY.' };
+        
         default:
             return { valid: false, error: 'Unknown validation type.' };
     }
@@ -89,3 +94,5 @@ console.log(validateField('99.99', 'percentage')); // { valid: true }
 console.log(validateField('', 'checkbox')); // { valid: false, error: 'Please select at least one option.' }
 console.log(validateField('', 'dropdown')); // { valid: false, error: 'Please select an option from the drop-down menu.' }
 console.log(validateField('ABC:123', 'alphaColonNumber')); // { valid: true }
+console.log(validateField('12/31/2024', 'date')); // { valid: true }
+console.log(validateField('31/12/2024', 'date')); // { valid: false, error: 'Invalid input. Please enter a valid date in the format MM/DD/YYYY.' }
