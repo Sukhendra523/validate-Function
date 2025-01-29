@@ -1,0 +1,35 @@
+{
+  "table_data": [
+    {
+      "Field details": "Amount with 2 decimals",      "Error Message / Warning Message": "Invalid input. Please enter a valid amount with up to two decimal places"    },    {
+      "Field details": "Alpha/Numeric/special character field",      "Error Message / Warning Message": "up
+Invalid input. Only special characters not allowed"    },    {
+      "Field details": "Alpha/Numeric/special character field",      "Error Message / Warning Message": "Invalid input. Only special characters not allowed"    },    {
+      "Field details": "Numeric Field",      "Error Message / Warning Message": "Invalid input. Please enter only Numeric characters"    },    {
+      "Field details": "Percentage with 2 decimals",      "Error Message / Warning Message": "Invalid input. Please enter a percentage with up to two decimal places"    },    {
+      "Field details": "Checkbox field",      "Error Message / Warning Message": "Please select atleast one option"    },    {
+      "Field details": "Checkbox field
+field",      "Error Message / Warning Message": "Please select atleast one option"    },    {
+      "Field details": "Dropdown field",      "Error Message / Warning Message": "Please select an option from the drop-down menu"    },    {
+      "Field details": "Alpha/special character field",      "Error Message / Warning Message": "Invalid input. Only alpha or special characters allowed"    },    {
+      "Field details": "Alpha Numeric field",      "Error Message / Warning Message": "Invalid input. Please enter a combination of alphabetic and numeric
+characters only"    },    {
+      "Field details": "Combination of alpha with special character (:) or numbers",      "Error Message / Warning Message": "Invalid format. Enter only Alpha : Alpha or Alpha : number"    },    {
+      "Field details": "Numeric/Special character (:)",      "Error Message / Warning Message": "Invalid input. Please enter correct time format - 24 hrs or 12 hours"    },    {
+      "Field details": "Dropdown field and Alpha/Special character (/) field",      "Error Message / Warning Message": "Invalid input. Number or other special character not allowed"    },    {
+      "Field details": "Dropdown field and Alpha/Special character (/) field",      "Error Message / Warning Message": "Invalid input. Number or other special character not allowed"    },    {
+      "Field details": "Dropdown field and Alpha/Special character (/) field
+field",      "Error Message / Warning Message": "Invalid input. Number or other special character not allowed
+Invalid Please characters"    },    {
+      "Field details": "Alpha field",      "Error Message / Warning Message": "Invalid input. Please enter only Alpha characters"    },    {
+      "Field details": "Alpha
+character field / Roman numerals",      "Error Message / Warning Message": "Invalid input. Please enter only Alpha characters
+Invalid Numbers not allowed"    },    {
+      "Field details": "Alpha/special character field / Roman numerals",      "Error Message / Warning Message": "Invalid input. Numbers not allowed"    },    {
+      "Field details": "Alpha Numeric Field",      "Error Message / Warning Message": "Invalid input. Please enter a combination of alphabetic and numeric
+characters only"    },    {
+      "Field details": "Percentage and Amount with 2 decimals",      "Error Message / Warning Message": "Invalid input. Please enter both a percentage and an amount ((upto two
+decimal places)"    },    {
+      "Field details": "Numeric field with (.) special character",      "Error Message / Warning Message": "Invalid input. Alphabets not allowed"    },    {
+      "Field details": "Percentage",      "Error Message / Warning Message": "Invalid input. Please enter a percentage between 0 and 100"    },    {
+      "Field details": "Numeric with Special Charater (-)",      "Error Message / Warning Message": "Invalid input. Please enter only numeric and -"    }  ]}
